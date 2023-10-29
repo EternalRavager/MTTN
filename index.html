@@ -1,46 +1,101 @@
 <!DOCTYPE html>
-    <head>
-     <title>List of tags and uses</title>
-    </head>
-    <body>
-       hello word
-       for comments 
-       <!--comments are hidden-->
-       <!--for headings use h1  and till h6 for different sizes-->
-       <h1>h1</h1>
-       <h6>h6</h6>
-       <!--for paragraph-->
-       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Illo laboriosam tenetur quis totam molestias quia!
-         Iusto provident quam architecto, facilis et hic. Dolorum quae, in illum ex at totam laboriosam.
-       </p>
-       <!--lorem is used for random txts, by using integer after lorem it will produce that many random words -->
-       <!-- strong for bold-->
-       <strong>abcd</strong>
-       <!-- em for bold-->
-       <em>abcd</em>
-       <!--a href is for redirecting to a new website or a new place-->
-       <a href="https://www.google.com/">ab</a>
-       <!-- target="_blank" is for opening in new website-->
-       <a href="https://www.google.com/" target="_blank">new tab</a>
-       <!-- for listing use ul or ol tag and use li to list elemnts in orderd or unordered-->
-       <!-- table for tables and th for columns and tr for entering rows th is written inside tr-->
-       <!--by using thead txt would be in heading format and for body us tbody-->
-       <!--forms for creating forms but we can't take input it's for layout-->
-       <!--br for next line-->
-       <!--hr for horizontal line-->
-       <!--label in forms is used for heading as what the form is accepting-->
-       <!--input in forms is used for input type is the type of input(txt or smthng else)-->
-       <!--select for selecting optins(dropdowns)-->
-       <!--option value="" for options-->
-       <!--by using type number we get to increase or decreasae number by arrows-->
-       <!--by type date we date or calender input-->
-       <!--placeholder for removing existing txt and replacing with input-->
-       <!--button for buttons redirecting or smthng else-->
-       <!--img src="location of img" for image-->
-       <!--abbr tittle=""for abbreviations to dispaly txt when cursor is on the txt-->
-       <!---->
-    </body>      
+<html>
+<head>
+    <title>Mini Project</title>
+</head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #ffffff;
+        }
+
+        header {
+            background-color: #000000;
+            font-size: 50px;
+            color: #fff;
+            text-align: center ;
+            padding: 10px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            margin: 0 ;
+            padding: 10px;
+            background-color: #ffffff;
+            display: grid;
+            grid-template-columns: auto auto auto;
+           
+        }
+
+        .event {
+            margin: 20px ;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: rgb(131, 134, 215);
+        }
+
+        .event h2 {
+            color: #000000;
+        }
+
+        .event p {
+            color: #ffffff;
+        }
+        .logo{
+            float:left;
+        }
+        .button {
+  
+        float: right;
+        }
+       
+
+
+       
+    </style>
+</head>
+<body>
     
+   <header>
+    <div class="logo">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/BITS_Pilani-Logo.svg/1200px-BITS_Pilani-Logo.svg.png" width="40px" alt="Image not found" id="image">
+    </div>
+    <div class="button">
+    <button>  <a href="login.html" >LOGIN</a></button>
+    </div>
+    
+        BITS GOA
+    </header>
+    <div class="container">
+        <div class="event">
+            <img src="https://m.media-amazon.com/images/M/MV5BZmNmNWJkOGItMTdmYy00MThmLWFiMzYtNWM4MjJiM2Y1MzBkXkEyXkFqcGdeQXVyNjA0MjY2MjM@._V1_.jpg" width="400.0" height="660.0" alt="Image not found">
+        <h2>Abhishek Stand up</h2>
+        <p>AB-1 Quadrangle</p>
+        <p>Stand Up Comedy</p>
+        <p>FREE</p>
+        <p>Register</p>
+        </div>
+
+        <div class="event">
+            <img src="https://m.media-amazon.com/images/I/91f4WnsRUIL._AC_UF1000,1000_QL80_.jpg" width="400.0" height="660.0" alt="Image not found">
+        <h2>Event 2</h2>
+        <p>AB-1 Quadrangle</p>
+        <p>Stand Up Comedy</p>
+        <p>FREE</p>
+        <p>Register</p>
+        </div>
+
+        <div class="event">
+            <img src="https://www.hindustantimes.com/ht-img/img/2023/08/09/1600x900/one_piece_gear_5_1691322181077_1691583557654.jpg" width="400.0" height="660.0" alt="Image not found">
+        <h2>Event 3</h2>
+        <p>Dr.Tma pai Auditorium</p>
+        <p>Tech event</p>
+        <p>FREE</p>
+        <p>Register</p>
+        </div>
+</body>
 </html>

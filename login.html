@@ -2,49 +2,90 @@
 <html>
 <head>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #ffffff;
-        }
+    input[type=text]:focus
+    {
+        background-color: rgb(248, 33, 33);
+    }
 
-        .header {
-            background-color: #000000;
-            font-size: 50px;
-            color: #fff;
-            text-align: center ;
-            padding: 10px 0;
-        }
-        #logo{
-            float:left;
-        }
-        .container {
-            padding: 30px;
-            margin:auto;
-            background-color: #9cd3ea;
-            border-radius: 35px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 350px;
-            max-width: 300px;
-        }
-        button
-        {
-            display: block;
-            margin: auto;
-        }
-        </style>
+    a:link
+    {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
+    a:visited
+    {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
+    a:hover
+    {
+        color: rgb(115, 0, 255);
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    
+    a:active
+    {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    body
+    {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #ffffff;
+    }
+
+    .header
+    {
+        background-color: #000000;
+        font-size: 50px;
+        color: #fff;
+        text-align: center ;
+        padding: 10px 0;
+    }
+        
+    #logo
+    {
+        float:left;
+    }
+    
+    .container
+    {
+        padding: 30px;
+        margin:auto;
+        background-color: #9cd3ea;
+        border-radius: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 350px;
+        max-width: 300px;
+    }
+    button
+    {
+        display: block;
+        margin: auto;
+    }
+    </style>
     <title>Login/Register</title>
 </head>
 <body>
-    <div class="header"> Register for Waves
+    <div class="header"><a style="text-decoration:none" href="index.html"> BITS GOA</a>
     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/BITS_Pilani-Logo.svg/1200px-BITS_Pilani-Logo.svg.png" width="40px" id="logo">
     </div>
-    <br><br><br><br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="container">
         <div class="box">
-        <form>
+            <form>
             <br>
             <label >Full name</label>
             <input type="text" name="Full Name" placeholder="Enter Full name">
@@ -67,11 +108,11 @@
             <label for="">One Piece</label>
             <br><br>
             <div class="button">
-            <button>
-            submit
-            </button>
+                <button>
+                    submit
+                </button>
+            </div>
         </div>
-    </div>
         </form>
     </div>
 </body>

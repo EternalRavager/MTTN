@@ -18,6 +18,22 @@
         #logo{
             float:left;
         }
+        .container {
+            padding: 30px;
+            margin:auto;
+            background-color: #9cd3ea;
+            border-radius: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 350px;
+            max-width: 300px;
+        }
+        button
+        {
+            display: block;
+            margin: auto;
+        }
         </style>
     <title>Login/Register</title>
 </head>
@@ -25,34 +41,38 @@
     <div class="header"> Register for Waves
     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/BITS_Pilani-Logo.svg/1200px-BITS_Pilani-Logo.svg.png" width="40px" id="logo">
     </div>
-    <form action="">
-        <br>
-        <label >Full name</label>
-        <input type="text" name="Full Name" value="Enter Full name">
-        <br>
-        <br>
-        <label >Email</label>
-        <input type="text" name="Email" value="Enter Email">
-        <br>
-        <br>
-        <label >Mobile No.</label>
-        <input type="text" name="Email" value="Enter Mobile No.">
-        <br>
-        <br>
-        <Label>Select Events</Label>
-        <br>
-        <input type="checkbox" name="" id="" value="Abhishe Upmanyu">
-        <label for="">Abhishek Upmanyu</label>
-        <br>
-        <input type="checkbox" name="" id="" value="">
-        <label for="">AOT</label>
-        <br>
-        <input type="checkbox" name="" id="" value="">
-        <label for="">One Piece</label>
-        <br>
-        <button>
-        submit
-        </button>
-    </form>
+    <br><br><br><br>
+    <div class="container">
+        <div class="box">
+        <form>
+            <br>
+            <label >Full name</label>
+            <input type="text" name="Full Name" placeholder="Enter Full name">
+            <br><br><br>
+            <label >Email</label>
+            <input type="text" name="Email" placeholder="Enter Email">
+            <br><br><br>
+            <label >Mobile No.</label>
+            <input type="text" name="Email" placeholder="Enter Mobile No.">
+            <br><br><br>
+            <Label>Select Events</Label>
+            <br>
+            <input type="checkbox">
+            <label for="">Abhishek Upmanyu</label>
+            <br>
+            <input type="checkbox" name="" id="" value="">
+            <label for="">AOT</label>
+            <br>
+            <input type="checkbox" name="" id="" value="">
+            <label for="">One Piece</label>
+            <br><br>
+            <div class="button">
+            <button>
+            submit
+            </button>
+        </div>
+    </div>
+        </form>
+    </div>
 </body>
 </html>

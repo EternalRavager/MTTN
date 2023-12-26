@@ -169,3 +169,65 @@ float: right;
   .tooltip2:hover .tooltiptext {
     visibility: visible;
   }
+
+  .tooltip3 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip3 .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: rgb(173, 51, 51);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+   
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip3:hover .tooltiptext {
+    visibility: visible;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;}
+  
+  @media screen and (max-width:400px)
+{
+    .navbar
+    {
+        display: none;    
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+      }
+}
+@media screen and (max-width:600px) {
+  .navbar
+    {
+        display: none;    
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+      }
+}

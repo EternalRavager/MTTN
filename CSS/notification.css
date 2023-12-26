@@ -149,3 +149,11 @@ body
         {
             display: block;
         }
+
+        @media screen and (max-width:400px)
+        {
+            .navbar
+            {
+                display: none;    
+            }
+        }        
